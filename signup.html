@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Village88 Training | jQuery | V88flix">
+    <link rel="icon" type="image/png" href="img/favicon.ico"/>
+    <link rel="stylesheet" href="css/signup.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/signup_validation.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#signup_form").validate();
+            $("#signup_form").submit(function(){
+                return false;
+            });
+        });
+    </script>
+    <title>V88flix</title>
+</head>
+<body>
+    <header>
+        <a class="brand" href="index.html">V88flix</a>
+        <a class="login" href="#">Login</a>
+    </header>
+    <section>
+        <div>
+            <form id="signup_form">
+                <h2>Sign Up</h2>
+                <label for="first_name" class="label">First Name</label>
+                <input type="text" id="first_name" class="first_name" name="first_name">
+                <label for="last_name" class="label">Last Name</label>
+                <input type="text" id="last_name" class="last_name" name="last_name">
+                <label for="email" class="label">Email Address</label>
+                <input type="email" id="email" class="email" name="email">
+                <label for="password" class="label">Password</label>
+                <input type="password" id="password" class="password" name="password">
+                <label for="confirm_password" class="label">Confirm Password</label>
+                <input type="password" id="confirm_password" class="confirm_password" name="confirm_password">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

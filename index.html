@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Village88 Training | jQuery | V88flix">
+    <link rel="icon" type="image/png" href="img/favicon.ico"/>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#accordion").accordion({
+                active: false,
+                heightStyle: "content",
+                collapsible: true,   
+            });
+        });
+    </script>
+    <title>V88flix</title>
+</head>
+<body>
+    <header>
+        <a class="brand" href="index.html">V88flix</a>
+        <a class="signup" href="signup.html">Sign Up</a>
+    </header>
+    <section>
+        <div class="section_main">
+            <h1>Unlimited movies, TV shows, and more.</h1>
+            <p>Watch anywhere. Cancel anytime.</p>
+            <a href="signup.html">Start Your Mempership</a>
+        </div>
+        <div class="section_features">
+            <div class="section_enjoy">
+                <div class="text">
+                    <h1>Enjoy on your TV.</h1>
+                    <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+                </div>
+                <img src="img/ui_picture_1.png" alt="Enjoy your TV">
+            </div>
+            <div class="section_download">
+                <img src="img/ui_picture_2.png" alt="Download your shows to watch offline">
+                <div class="text">
+                    <h1>Download your shows to watch offline.</h1>
+                    <p>Save your favorites easily and always have something to watch.</p>
+                </div>
+            </div>
+            <div class="section_watch">
+                <div class="text">
+                    <h1>Watch everywhere.</h1>
+                    <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more.</p>
+                </div>
+                <img src="img/ui_picture_3.png" alt="Watch everywhere.">
+            </div>
+        </div>
+        <div class="section_faqs">
+            <h1>Frequently Asked Questions</h1>
+            <div id="accordion">
+                <h3>What is V88flix?</h3>
+                <div>
+                    <p>V88flix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.</p>
+                    <p>You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!</p>
+                </div>
+                <h3>How much does V88flix cost?</h3>
+                <div>
+                    <p>Watch V88flix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from ₱149 to ₱549 a month. No extra costs, no contracts.</p>
+                </div>
+                <h3>Where can I watch?</h3>
+                <div>
+                    <p>Watch anywhere, anytime, on an unlimited number of devices. Sign in with your V88flix account to watch instantly on the web at V88flix.com from your personal computer or on any internet-connected device that offers the V88flix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.</p>
+                    <p>You can also download your favorite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take V88flix with you anywhere.</p>
+                </div>
+                <h3>How do I cancel?</h3>
+                <div>
+                    <p>V88flix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p>
+                </div>
+                <h3>What can I watch on V88flix?</h3>
+                <div>
+                    <p>V88flix has an extensive library of feature films, documentaries, TV shows, anime, award-winning V88flix originals, and more. Watch as much as you want, anytime you want.</p>
+                </div>
+            </div>
+            <a href="signup.html">Start Your Mempership</a>
+        </div>
+    </section>
+</body>
+</html>
